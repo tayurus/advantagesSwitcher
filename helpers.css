@@ -1,5 +1,5 @@
 .row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -10,6 +10,9 @@
   transform: translate(-50%, -50%);
 }
 
+.container_switchers {
+}
+
 .my-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -17,4 +20,16 @@
 
 .ml-2 {
   margin-left: 2rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fs-2 {
+  font-size: 2rem;
 }
